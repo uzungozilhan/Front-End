@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="http://www.clarusway.com/action_page.php">
+      <h2>Welcome Clarusway</h2>
+      Username:<br />
+      <input type="text" name="username" size="5" maxlength="5" /><br />
+      Password:<br />
+      <input type="password" name="userpass" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="http://www.clarusway.com/action_page.php">
+      <!-- Input Type Radio -->
+      <h2>GENDER:</h2>
+      <input type="radio" id="male" name="gender" value="male" />Male
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <hr />
+      <!-- Input Type Checkbox -->
+      <p>Which days are you busy.</p>
+      <input id="day1" type="checkbox" name="days" value="monday" />
+      <label for="day1">Monday</label><br />
+      <input id="day2" type="checkbox" name="days" value="tuesday" />
+      <label for="day2">Tuesday</label><br />
+      <input type="checkbox" name="days" value="wednesday" /> Wednesday<br />
+      <input type="checkbox" name="days" value="thursday" /> Thursday<br />
+      <input type="checkbox" name="days" value="friday" /> Friday<br />
+      <hr />
+      <!-- Input Type Number -->
+      <p>How old are you?</p>
+      <label for="ages">Age:</label>
+      <input type="number" name="age" id="ages" />
+
+      <hr />
+      <!-- Input Type Reset -->
+      <input type="reset" value="sıfırla / reset" />
+      <hr />
+      <!-- Input Type Submit -->
+      <h2>Welcome Clarusway</h2>
+      Username:<br />
+      <input type="text" name="username" />
+      <input type="submit" value="Gönder / Submit" />
+      <hr />
+      <!-- Other Input Types -->
+      <label for="email">email:</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="example@example.com"
+      /><br />
+      <hr />
+      url:
+      <input type="url" name="url" placeholder="http://example.com" /><br />
+      <hr />
+      tel:
+      <input
+        type="tel"
+        name="tel"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      /><br />
+      <hr />
+      number: <input type="number" name="number" min="10" max="25" /><br />
+      <hr />
+      number:
+      <input type="number" name="number" min="0" max="1" step="0.01" /><br />
+      <hr />
+      range: <input type="range" name="range" min="5" max="10" /><br />
+      <hr />
+      <label for="search">search:</label>
+      <input
+        type="search"
+        name="search"
+        id="search"
+        placeholder="ara......"
+      /><br />
+      <hr />
+      time: <input type="time" name="time" /><br />
+      <hr />
+      date:
+      <input type="date" name="date" min="2020-05-20" max="2022-06-21" /><br />
+      <hr />
+      color: <input type="color" name="color" /><br />
+      <hr />
+      file: <input type="file" name="file" /><br />
+      <hr />
+      <input type="button" value="OK" />
+      <hr />
+      <input type="datetime-local" name="tarih-saat" id="tarih-saat" />
+    </form>
+    <hr />
+  </body>
+</html>
